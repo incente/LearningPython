@@ -1,0 +1,3 @@
+    for x in range(int(create_data.dimensions(my_screen)["start_x"]), int(create_data.dimensions(my_screen)["end_x"])):
+            controller.delete_bar(create_data.dimensions(my_screen)["end_y"], pen, x, create_data.dimensions(my_screen)["start_y"])
+            controller.paint_bar(create_data.dimensions(my_screen)["end_y"], pen, "black", create_data.dimensions(my_screen)["start_x"], create_data.dimensions(my_screen)["start_y"])
